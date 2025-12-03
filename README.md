@@ -4,41 +4,51 @@ Developed by: Najnin Sultana
 Student ID: 101336862
 Course: Mobile Application Development (Assignment 2)
 
-Overview
+## Overview
 
 This React Native (Expo) application allows users to convert an amount from one currency to another using real-time foreign exchange rates from the FreeCurrencyAPI.
 
-The app includes:
+## The app includes:
 
 ✔ A main currency converter screen
+
 ✔ An About screen showing student info
+
 ✔ Input validation
+
 ✔ Live API fetching + loading indicator
+
 ✔ Error handling for missing/invalid currencies, network failure, or invalid API key
+
 ✔ A reusable input component
+
 ✔ Clean UI and responsive layout
 
-##Technologies Used
+## Technologies Used
 
-React Native (Expo)
-Expo Router
-TypeScript
-FreeCurrencyAPI
-Android Studio Emulator or Expo Go on a physical device
+✔ React Native (Expo)
 
-Features
-Currency Converter
+✔ Expo Router
 
-User enters:
-Base currency (e.g., CAD)
-Target currency (e.g., USD)
-Amount to convert
+✔ TypeScript
 
-Performs validation:
-3-letter uppercase ISO currency codes
-Positive numeric amounts
+✔ FreeCurrencyAPI
 
-API Integration
+✔ Android Studio Emulator or Expo Go on a physical device
+
+## Features
+✔  Currency Converter
+
+## User enters:
+✔  Base currency (e.g., CAD)
+✔  Target currency (e.g., USD)
+✔ Amount to convert
+
+## Performs validation:
+✔  3-letter uppercase ISO currency codes
+✔  Positive numeric amounts
+
+## API Integration
 Fetches latest exchange rates from:
 https://api.freecurrencyapi.com/v1/latest
 
