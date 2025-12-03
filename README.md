@@ -68,9 +68,11 @@ Short description of the app
 
 ## Installation & Setup
 ✔ Install dependencies
+
 npm install
 
 ✔ Add your FreeCurrencyAPI key
+
 Open app/index.tsx and update:
 const API_KEY = "YOUR_KEY_HERE";
 
@@ -78,12 +80,16 @@ const API_KEY = "YOUR_KEY_HERE";
 npx expo start
 
 ✔ Run on your device or emulator
+
 Press a → open on Android emulator
+
 Press w → open in web browser
+
 Scan QR code → open in Expo Go app
 
 ## Testing the API
 Confirm the API key works:
+
 https://api.freecurrencyapi.com/v1/latest?apikey=YOUR_KEY&base_currency=CAD&currencies=USD
 
 If your key is correct, you will receive JSON data with exchange rates.
