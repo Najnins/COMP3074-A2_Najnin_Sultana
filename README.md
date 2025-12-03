@@ -52,7 +52,7 @@ This React Native (Expo) application allows users to convert an amount from one 
 Fetches latest exchange rates from:
 https://api.freecurrencyapi.com/v1/latest
 
-Displays:
+## Displays:
 Converted amount
 Exchange rate used
 Handles errors such as:
@@ -60,30 +60,29 @@ Invalid API key
 Missing currency
 Network issues
 
-About Screen
-Shows:
+## About Screen Shows:
 Full Name
 Student ID
 Short description of the app
 
 
-Installation & Setup
-Install dependencies
+## Installation & Setup
+✔ Install dependencies
 npm install
 
-2️Add your FreeCurrencyAPI key
+✔ Add your FreeCurrencyAPI key
 Open app/index.tsx and update:
 const API_KEY = "YOUR_KEY_HERE";
 
-3️Start the app
+✔ Start the app
 npx expo start
 
-4️Run on your device or emulator
+✔ Run on your device or emulator
 Press a → open on Android emulator
 Press w → open in web browser
 Scan QR code → open in Expo Go app
 
-Testing the API
+## Testing the API
 Confirm the API key works:
 https://api.freecurrencyapi.com/v1/latest?apikey=YOUR_KEY&base_currency=CAD&currencies=USD
 
